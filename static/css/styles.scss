@@ -1,0 +1,51 @@
+.container-fluid{
+    padding: 0%;
+}
+
+.jumbotron{
+    padding: 3%;
+}
+
+#logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#evernote-logo {
+    width: 80%;
+}
+
+#header-div{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    hyphens: auto; 
+    text-align: justify
+}
+
+.notebook-unit{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    flex:1;
+    margin: 2%;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+}
+
+@media (min-device-width: 800px) {
+    .notebook-unit{
+        flex-direction: row;
+    }
+    .card-img-top{
+        height: 10vw;
+    }
+ }
